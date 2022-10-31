@@ -10,8 +10,7 @@
 /*Шапка*/
 body{
 font-family: "Roboto", sans-serif;
-background-color:#F5F5F5;
-background-color: var(--brand-color);
+background-color:#ffffff;
 color: #212121;
 
 
@@ -28,7 +27,11 @@ header{
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration:none ;
     
+}
+.logo-footer{
+    color:#ffffff;
 }
 .logo-header{
     color:#000000;
@@ -40,11 +43,14 @@ header{
     
 }
 .item{
+    text-decoration: none;
     color:#212121;
     color:var(--text-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+   
 }
 .item:hover,
 .item:focus{
@@ -54,9 +60,11 @@ header{
 .tel-header,
 .mail-header{
     color:#757575;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
     
    
 
@@ -88,11 +96,24 @@ header{
 
 .main-list  .list-benefits{
 font-weight: 700;
-font-size: 36px;
+font-size: 14px;
 line-height: 1.8;
 text-align: center;
 letter-spacing: 0.03em;
 
+}
+.our-team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.benefits{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 .list-benefits{
  
@@ -103,8 +124,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .list-paragraph{
-font-weight: 400;
-font-size: 16px;
+font-size: 14px;
 line-height: 1.8;
 letter-spacing: 0.03em;
 }
@@ -121,9 +141,14 @@ letter-spacing: 0.03em;
         
     
     }
+    .main>.main-button{
+        background-color: #2196F3;
+
+    }
 .main-button{
     color:#757575;
-    font-style: normal;
+    cursor: pointer;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -131,6 +156,7 @@ letter-spacing: 0.03em;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    
 }
 .main-button:focus,
 .main-button:hover{
@@ -145,6 +171,7 @@ letter-spacing: 0.03em;
     background-color:#2F303A;
 }
 .footer-address{
+    text-decoration: none;
     color:#FFFFFF;
     color:var(--brand-color)
 }
@@ -158,6 +185,7 @@ letter-spacing: 0.03em;
     color:var(--text-color);
 }
 .address{
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.8;
