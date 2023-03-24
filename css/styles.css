@@ -1,0 +1,57 @@
+:root{
+    --header-color:#FFFFFF;
+
+    --main-color:#E5E5E5;
+
+    --footer-color:#2E2F42;
+
+    --p-color:#434455;
+
+    --acent-color:#4D5AE5;
+
+}
+
+
+.body{
+    color:var(--p-color)
+}
+
+/*Шапка*/
+
+.navigation-header{
+background-color: #FFFFFF;
+}
+
+
+
+.nav-logo .link{
+    font-family: 'Raleway' sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+    
+}
+.web{
+    color:var(--acent-color)
+}
+
+
+
+/*Уникальное содержание*/
+.service{
+    background-color: #2E2F42;
+}
+
+/*Основной контент*/
+.main-strategy{
+    background-color:#E5E5E5;
+}
+
+
+/*Подвал*/
+.footer-list{
+background-color: #2E2F42;
+}  
