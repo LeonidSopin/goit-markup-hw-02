@@ -1,19 +1,9 @@
-:root{
-    --header-color:#FFFFFF;
-
-    --main-color:#E5E5E5;
-
-    --footer-color:#2E2F42;
-
-    --p-color:#434455;
-
-    --acent-color:#4D5AE5;
-
-}
 
 
-.body{
-    font-family: "Roboto",sans-serif;
-    color:#434455;
-    background-color: var(--header-color);
+body{
+  font-family: 'Roboto'sans-serif;
+  font-weight: 500;
+color: #434455;
+background-color: var(--header-color);
+
 }
