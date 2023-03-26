@@ -35,15 +35,23 @@
         color:var(--footer-color);
         text-decoration: none;
 }
-.menu.list{
+
+    
+
+.list{
+        
         font-family: 'Roboto',sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         list-style: none;
+        text-decoration: none;
+        
+        
         
 }
+
 
 
     
