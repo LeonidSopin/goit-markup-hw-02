@@ -5,10 +5,27 @@
     --p-color: #434455;
     --acent-color: #4D5AE5;
 }
- /*шапка*/
+
 .body{
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto",sans-serif;
     color: var(--p-color);
     background-color: var(--header-color);
 }
+
+                         /*===========================Шапка======================*/
+
+  .header{
+    background-color: var(--header-color);
+  }        
+  .web{
+    color:var(--acent-color);
+    text-decoration: none;
+    list-style: none;
+
+  }    
+  .studio{
+    color:var(--footer-color)
+  }           
+
+
 
