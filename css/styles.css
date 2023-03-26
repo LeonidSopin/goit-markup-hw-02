@@ -35,7 +35,7 @@
         color:var(--footer-color);
         text-decoration: none;
 }
-.list-menu{
+.menu.list{
         font-family: 'Roboto',sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -44,6 +44,7 @@
         list-style: none;
         
 }
+
 
     
 
