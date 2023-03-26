@@ -15,7 +15,7 @@
                          /*===========================Шапка======================*/
 
 /*logo*/
-.logo .link{
+.web-logo.link{
     font-family: 'Raleway' sans-serif;
         
         font-weight: 800;
@@ -26,7 +26,7 @@
         color: var(--acent-color);
         text-decoration: none;
 }
-.logo{
+.studio-logo.link{
     font-family: 'Raleway' sans-serif;
     
         font-weight: 800;
@@ -34,8 +34,10 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--footer-color);
+        color:var(--footer-color)
         text-decoration: none;
-    
 }
+
+    
+
 
