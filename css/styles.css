@@ -14,22 +14,28 @@
 
                          /*===========================Шапка======================*/
 
-  .header{
-    background-color: var(--header-color);
-  }
-  .navigation .link{
-        text-decoration: none;
-        font-family: 'Raleway';
+/*logo*/
+.logo .link{
+    font-family: 'Raleway' sans-serif;
+        
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-
-  }        
-  .web{
-    color:var(--acent-color);
- 
-}    
-          
-
-
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--acent-color);
+        text-decoration: none;
+}
+.logo{
+    font-family: 'Raleway' sans-serif;
+    
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--footer-color);
+        text-decoration: none;
+    
+}
 
