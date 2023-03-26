@@ -16,16 +16,20 @@
 
   .header{
     background-color: var(--header-color);
+  }
+  .navigation .link{
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+
   }        
   .web{
     color:var(--acent-color);
-    text-decoration: none;
-    list-style: none;
-
-  }    
-  .studio{
-    color:var(--footer-color)
-  }           
+ 
+}    
+          
 
 
 
