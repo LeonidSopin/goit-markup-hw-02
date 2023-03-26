@@ -7,7 +7,7 @@
 }
 
 .body{
-    font-family:"Roboto",sans-serif;
+    font-family: "Roboto" ,sans-serif;
     color: var(--p-color);
     background-color: var(--header-color);
 }
@@ -32,7 +32,7 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:var(--footer-color)
+        color:var(--footer-color);
         text-decoration: none;
 }
 
