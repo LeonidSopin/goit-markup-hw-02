@@ -35,6 +35,10 @@
         color:var(--footer-color);
         text-decoration: none;
 }
+.link:hover,
+.link:focus{
+        color: #404bbf
+}
 
     
 
