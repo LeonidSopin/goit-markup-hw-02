@@ -40,26 +40,42 @@
         color: #4D5AE5;
 }
 
+.list-link:hover,
+.list-link:focus{
+        color: #4D5AE5;
+}
 
-        
-
-
-.list{
-        
+.list-link{
         font-family: 'Roboto',sans-serif;
-        font-weight: 500;
+        font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        list-style: none;
+        color: var(--footer-color);
         text-decoration: none;
+        list-style: none;
 }
 
-.list-header{
-        color:var(--footer-color);
-        text-decoration: none;
+.address-list{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--p-color);
         list-style: none;
+        text-decoration: none;
 }
+.address-mailt:hover,
+.address-mailt:focus{
+        color: var(--acent-color);
+}
+
+
+
+
+
 
 
     
