@@ -37,10 +37,12 @@
 }
 .link:hover,
 .link:focus{
-        color: #404bbf
+        color: #4D5AE5;
 }
 
-    
+
+        
+
 
 .list{
         
@@ -51,11 +53,13 @@
         letter-spacing: 0.02em;
         list-style: none;
         text-decoration: none;
-        
-        
-        
 }
 
+.list-header{
+        color:var(--footer-color);
+        text-decoration: none;
+        list-style: none;
+}
 
 
     
